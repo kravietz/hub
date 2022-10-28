@@ -454,29 +454,6 @@
     "crowdsecurity/base-http-scenarios"
    ]
   },
-  "crowdsecurity/freebsd": {
-   "path": "collections/crowdsecurity/freebsd.yaml",
-   "version": "0.1",
-   "versions": {
-    "0.1": {
-     "digest": "f2969de2e7c76a12e9c9f6a7797a62f184df6a2c188db2ac6b1e0914e342b59f",
-     "deprecated": false
-    }
-   },
-   "long_description": "Kipjb3JlIHBhY2thZ2UgZm9yIGZyZWVic2QqKgoKY29udGFpbnMgc3VwcG9ydCBmb3Igc3lzbG9nLCBkbyBub3QgcmVtb3ZlLgo=",
-   "content": "cGFyc2VyczoKICAtIGNyb3dkc2VjdXJpdHkvc3lzbG9nLWxvZ3MKICAtIGNyb3dkc2VjdXJpdHkvZ2VvaXAtZW5yaWNoCiAgLSBjcm93ZHNlY3VyaXR5L2RhdGVwYXJzZS1lbnJpY2gKY29sbGVjdGlvbnM6CiAgLSBjcm93ZHNlY3VyaXR5L3NzaGQKZGVzY3JpcHRpb246ICJjb3JlIGZyZWVic2Qgc3VwcG9ydCA6IHN5c2xvZytnZW9pcCtzc2giCmF1dGhvcjogY3Jvd2RzZWN1cml0eQp0YWdzOgogIC0gZnJlZWJzZCAKCg==",
-   "description": "core freebsd support : syslog+geoip+ssh",
-   "author": "crowdsecurity",
-   "labels": null,
-   "parsers": [
-    "crowdsecurity/syslog-logs",
-    "crowdsecurity/geoip-enrich",
-    "crowdsecurity/dateparse-enrich"
-   ],
-   "collections": [
-    "crowdsecurity/sshd"
-   ]
-  },
   "crowdsecurity/haproxy": {
    "path": "collections/crowdsecurity/haproxy.yaml",
    "version": "0.1",
@@ -669,12 +646,11 @@
    },
    "long_description": "Kipjb3JlIHBhY2thZ2UgZm9yIGxpbnV4KioKCmNvbnRhaW5zIHN1cHBvcnQgZm9yIHN5c2xvZywgZG8gbm90IHJlbW92ZS4K",
    "content": "cGFyc2VyczoKICAtIGNyb3dkc2VjdXJpdHkvc3lzbG9nLWxvZ3MKICAtIGNyb3dkc2VjdXJpdHkvZ2VvaXAtZW5yaWNoCiAgLSBjcm93ZHNlY3VyaXR5L2RhdGVwYXJzZS1lbnJpY2gKY29sbGVjdGlvbnM6CiAgLSBjcm93ZHNlY3VyaXR5L3NzaGQKZGVzY3JpcHRpb246ICJjb3JlIGxpbnV4IHN1cHBvcnQgOiBzeXNsb2crZ2VvaXArc3NoIgphdXRob3I6IGNyb3dkc2VjdXJpdHkKdGFnczoKICAtIGxpbnV4Cgo=",
-   "description": "core linux support : syslog+geoip+ssh",
+   "description": "core linux support : syslog+ssh",
    "author": "crowdsecurity",
    "labels": null,
    "parsers": [
     "crowdsecurity/syslog-logs",
-    "crowdsecurity/geoip-enrich",
     "crowdsecurity/dateparse-enrich"
    ],
    "collections": [
@@ -747,12 +723,9 @@
     "crowdsecurity/syslog-logs",
     "crowdsecurity/magento-extension-logs",
     "crowdsecurity/dateparse-enrich",
-    "crowdsecurity/geoip-enrich"
    ],
    "scenarios": [
     "crowdsecurity/http-magento-bf",
-    "crowdsecurity/http-magento-ccs-by-country",
-    "crowdsecurity/http-magento-ccs-by-as",
     "crowdsecurity/http-magento-ccs"
    ]
   },
@@ -1272,30 +1245,6 @@
     "crowdsecurity/seo-bots-whitelist",
     "crowdsecurity/cdn-whitelist",
     "crowdsecurity/rdns"
-   ]
-  },
-  "crowdsecurity/windows": {
-   "path": "collections/crowdsecurity/windows.yaml",
-   "version": "0.1",
-   "versions": {
-    "0.1": {
-     "digest": "dca4187a260a723cfc7d47246cccfadab4249adca84f9e8b0cff7727f4503ae9",
-     "deprecated": false
-    }
-   },
-   "long_description": "IyMgV2luZG93cyBjb2xsZWN0aW9uCgpUaGlzIGNvbGxlY3Rpb24gaW5zdGFsbHMgYSBwYXJzZXIgZm9yIHdpbmRvd3MgZXZlbnQgbG9ncyArIGZsYXQgZmlsZSwgYW5kIGEgcGFyc2VyL3NjZW5hcmlvIGZvciBhdXRoIGJydXRlZm9yY2UK",
-   "content": "cGFyc2VyczoKICAtIGNyb3dkc2VjdXJpdHkvd2luZG93cy1sb2dzCiAgLSBjcm93ZHNlY3VyaXR5L3dpbmRvd3MtYXV0aAogIC0gY3Jvd2RzZWN1cml0eS9nZW9pcC1lbnJpY2gKICAtIGNyb3dkc2VjdXJpdHkvZGF0ZXBhcnNlLWVucmljaApzY2VuYXJpb3M6CiAgLSBjcm93ZHNlY3VyaXR5L3dpbmRvd3MtYmYKZGVzY3JpcHRpb246ICJjb3JlIHdpbmRvd3Mgc3VwcG9ydCA6IHdpbmRvd3MgZXZlbnQgbG9nICsgYmYgZGV0ZWN0aW9uIgphdXRob3I6IGNyb3dkc2VjdXJpdHkKdGFnczoKICAtIHdpbmRvd3MKCg==",
-   "description": "core windows support : windows event log + bf detection",
-   "author": "crowdsecurity",
-   "labels": null,
-   "parsers": [
-    "crowdsecurity/windows-logs",
-    "crowdsecurity/windows-auth",
-    "crowdsecurity/geoip-enrich",
-    "crowdsecurity/dateparse-enrich"
-   ],
-   "scenarios": [
-    "crowdsecurity/windows-bf"
    ]
   },
   "crowdsecurity/windows-cve": {
@@ -2181,26 +2130,6 @@
    "long_description": "UGFyc2VyIGZvciBmYXN0bHkgbG9ncyB3aXRoIGRlZmF1bHQgZm9ybWF0IFsoc2VlIGZhc2x0eSBkb2N1bWVudGF0aW9uKV0oaHR0cHM6Ly9kb2NzLmZhc3RseS5jb20vZW4vZ3VpZGVzL2ludGVncmF0aW9ucyNfbG9nZ2luZy1lbmRwb2ludHMpCgoqKk1hbmRhdG9yeSoqIFlvdSBuZWVkIHRvIGFkZCB0aG9zZSBsYWJlbHMgb24gdGhlIGFjcXVpc2l0aW9uOgpgYGB5YW1sCmxhYmVsczoKICB0eXBlOiBzeXNsb2cKICBleHRlcm5hbF9mb3JtYXQ6IGZhc3RseQpgYGA=",
    "content": "ZmlsdGVyOiAiZXZ0LkxpbmUuTGFiZWxzLmV4dGVybmFsX2Zvcm1hdCA9PSAnZmFzdGx5JyIKb25zdWNjZXNzOiBuZXh0X3N0YWdlCiNkZWJ1ZzogdHJ1ZQpuYW1lOiBjcm93ZHNlY3VyaXR5L2Zhc3RseS1sb2dzCmRlc2NyaXB0aW9uOiBmYXN0bHkgbG9ncyBwYXJzZXIKcGF0dGVybl9zeW50YXg6CiAgRE9VQkxFX05VTTogIlswLTldezJ9Igpncm9rOgogIHBhdHRlcm46ICIle0dSRUVEWURBVEE6ZmFzdGx5X3RpbWVzdGFtcH1cXCsle0RPVUJMRV9OVU06dHpfcGFydDF9JXtET1VCTEVfTlVNOnR6X3BhcnQyfSIKICBleHByZXNzaW9uOiBKc29uRXh0cmFjdChldnQuUGFyc2VkLm1lc3NhZ2UsICJ0aW1lc3RhbXAiKQpzdGF0aWNzOgogIC0gbWV0YTogc2VydmljZQogICAgdmFsdWU6IGh0dHAKICAtIG1ldGE6IGxvZ190eXBlCiAgICB2YWx1ZTogaHR0cF9hY2Nlc3MtbG9nCiAgLSB0YXJnZXQ6IGV2dC5TdHJUaW1lCiAgICBleHByZXNzaW9uOiBldnQuUGFyc2VkLmZhc3RseV90aW1lc3RhbXAgKyAiLjAwKyIgKyBldnQuUGFyc2VkLnR6X3BhcnQxICsgIjoiICsgZXZ0LlBhcnNlZC50el9wYXJ0MgogIC0gbWV0YTogc291cmNlX2lwCiAgICBleHByZXNzaW9uOiBKc29uRXh0cmFjdChldnQuUGFyc2VkLm1lc3NhZ2UsICJjbGllbnRfaXAiKQogIC0gdGFyZ2V0OiBldnQuUGFyc2VkLnJlcXVlc3QKICAgIGV4cHJlc3Npb246IEpzb25FeHRyYWN0KGV2dC5QYXJzZWQubWVzc2FnZSwgInVybCIpCiAgLSBtZXRhOiBodHRwX3BhdGgKICAgIGV4cHJlc3Npb246IEpzb25FeHRyYWN0KGV2dC5QYXJzZWQubWVzc2FnZSwgInVybCIpCiAgLSBwYXJzZWQ6IHZlcmIKICAgIGV4cHJlc3Npb246IEpzb25FeHRyYWN0KGV2dC5QYXJzZWQubWVzc2FnZSwgInJlcXVlc3RfbWV0aG9kIikKICAtIG1ldGE6IHZlcmIKICAgIGV4cHJlc3Npb246IEpzb25FeHRyYWN0KGV2dC5QYXJzZWQubWVzc2FnZSwgInJlcXVlc3RfbWV0aG9kIikKICAtIHBhcnNlZDogaHR0cF9yZWZlcmVyCiAgICBleHByZXNzaW9uOiBKc29uRXh0cmFjdChldnQuUGFyc2VkLm1lc3NhZ2UsICJyZXF1ZXN0X3JlZmVyZXIiKQogIC0gcGFyc2VkOiBodHRwX3VzZXJfYWdlbnQKICAgIGV4cHJlc3Npb246IEpzb25FeHRyYWN0KGV2dC5QYXJzZWQubWVzc2FnZSwgInJlcXVlc3RfdXNlcl9hZ2VudCIpCiAgLSBtZXRhOiBodHRwX3VzZXJfYWdlbnQKICAgIGV4cHJlc3Npb246IEpzb25FeHRyYWN0KGV2dC5QYXJzZWQubWVzc2FnZSwgInJlcXVlc3RfdXNlcl9hZ2VudCIpCiAgLSBtZXRhOiBodHRwX3N0YXR1cwogICAgZXhwcmVzc2lvbjogSnNvbkV4dHJhY3QoZXZ0LlBhcnNlZC5tZXNzYWdlLCAicmVzcG9uc2Vfc3RhdHVzIikKICAtIHBhcnNlZDogYm9keV9ieXRlc19zZW50CiAgICBleHByZXNzaW9uOiBKc29uRXh0cmFjdChldnQuUGFyc2VkLm1lc3NhZ2UsICJyZXNwb25zZV9ib2R5X3NpemUiKQ==",
    "description": "fastly logs parser",
-   "author": "crowdsecurity",
-   "labels": null
-  },
-  "crowdsecurity/geoip-enrich": {
-   "path": "parsers/s02-enrich/crowdsecurity/geoip-enrich.yaml",
-   "stage": "s02-enrich",
-   "version": "0.2",
-   "versions": {
-    "0.1": {
-     "digest": "c0718adfc71ad462ad90485ad5c490e5de0e54d8af425bff552994e114443ab6",
-     "deprecated": false
-    },
-    "0.2": {
-     "digest": "ab327e6044a32de7d2f3780cbc8e0c4af0c11716f353023d2dc7b986571bb765",
-     "deprecated": false
-    }
-   },
-   "long_description": "VGhlIEdlb0lQIG1vZHVsZSByZWxpZXMgb24gZ2VvbGl0ZSBkYXRhYmFzZSB0byBwcm92aWRlIGVucmljaG1lbnQgb24gc291cmNlIGlwLgoKVGhlIGZvbGxvd2luZyBpbmZvcm1hdGlvbnMgd2lsbCBiZSBhZGRlZCB0byB0aGUgZXZlbnQgOgogLSBgTWV0YS5Jc29Db2RlYCA6IHR3by1sZXR0ZXJzIGNvdW50cnkgY29kZQogLSBgTWV0YS5Jc0luRVVgIDogYSBib29sZWFuIGluZGljYXRpbmcgaWYgSVAgaXMgaW4gRVUKIC0gYE1ldGEuR2VvQ29vcmRzYCA6IGxhdGl0dWRlICYgbG9uZ2l0dWRlIG9mIElQCiAtIGBNZXRhLkFTTk51bWJlcmAgOiBBdXRvbm9tb3VzIFN5c3RlbSBOdW1iZXIKIC0gYE1ldGEuQVNOT3JnYCA6IEF1dG9ub21vdXMgU3lzdGVtIE5hbWUKIC0gYE1ldGEuU291cmNlUmFuZ2VgIDogVGhlIHB1YmxpYyByYW5nZSB0byB3aGljaCB0aGUgSVAgYmVsb25ncwoKClRoaXMgY29uZmlndXJhdGlvbiBpbmNsdWRlcyBHZW9MaXRlMiBkYXRhIGNyZWF0ZWQgYnkgTWF4TWluZCBhdmFpbGFibGUgZnJvbSBbaHR0cHM6Ly93d3cubWF4bWluZC5jb21dKGh0dHBzOi8vd3d3Lm1heG1pbmQuY29tKSwgaXQgaW5jbHVkZXMgdHdvIGRhdGEgZmlsZXM6IAoqIFtHZW9MaXRlMi1DaXR5Lm1tZGJdKGh0dHBzOi8vY3Jvd2RzZWMtc3RhdGljcy1hc3NldHMuczMtZXUtd2VzdC0xLmFtYXpvbmF3cy5jb20vR2VvTGl0ZTItQ2l0eS5tbWRiKQoqIFtHZW9MaXRlMi1BU04ubW1kYl0oaHR0cHM6Ly9jcm93ZHNlYy1zdGF0aWNzLWFzc2V0cy5zMy1ldS13ZXN0LTEuYW1hem9uYXdzLmNvbS9HZW9MaXRlMi1BU04ubW1kYikKCg==",
-   "content": "ZmlsdGVyOiAiJ3NvdXJjZV9pcCcgaW4gZXZ0Lk1ldGEiCm5hbWU6IGNyb3dkc2VjdXJpdHkvZ2VvaXAtZW5yaWNoCmRlc2NyaXB0aW9uOiAiUG9wdWxhdGUgZXZlbnQgd2l0aCBnZW9sb2MgaW5mbyA6IGFzLCBjb3VudHJ5LCBjb29yZHMsIHNvdXJjZSByYW5nZS4iCmRhdGE6CiAgLSBzb3VyY2VfdXJsOiBodHRwczovL2Nyb3dkc2VjLXN0YXRpY3MtYXNzZXRzLnMzLWV1LXdlc3QtMS5hbWF6b25hd3MuY29tL0dlb0xpdGUyLUNpdHkubW1kYgogICAgZGVzdF9maWxlOiBHZW9MaXRlMi1DaXR5Lm1tZGIKICAtIHNvdXJjZV91cmw6IGh0dHBzOi8vY3Jvd2RzZWMtc3RhdGljcy1hc3NldHMuczMtZXUtd2VzdC0xLmFtYXpvbmF3cy5jb20vR2VvTGl0ZTItQVNOLm1tZGIKICAgIGRlc3RfZmlsZTogR2VvTGl0ZTItQVNOLm1tZGIKc3RhdGljczoKICAtIG1ldGhvZDogR2VvSXBDaXR5CiAgICBleHByZXNzaW9uOiBldnQuTWV0YS5zb3VyY2VfaXAKICAtIG1ldGE6IElzb0NvZGUKICAgIGV4cHJlc3Npb246IGV2dC5FbnJpY2hlZC5Jc29Db2RlCiAgLSBtZXRhOiBJc0luRVUKICAgIGV4cHJlc3Npb246IGV2dC5FbnJpY2hlZC5Jc0luRVUKICAtIG1ldGE6IEdlb0Nvb3JkcwogICAgZXhwcmVzc2lvbjogZXZ0LkVucmljaGVkLkdlb0Nvb3JkcwogIC0gbWV0aG9kOiBHZW9JcEFTTgogICAgZXhwcmVzc2lvbjogZXZ0Lk1ldGEuc291cmNlX2lwCiAgLSBtZXRhOiBBU05OdW1iZXIKICAgIGV4cHJlc3Npb246IGV2dC5FbnJpY2hlZC5BU05OdW1iZXIKICAtIG1ldGE6IEFTTk9yZwogICAgZXhwcmVzc2lvbjogZXZ0LkVucmljaGVkLkFTTk9yZwogIC0gbWV0aG9kOiBJcFRvUmFuZ2UKICAgIGV4cHJlc3Npb246IGV2dC5NZXRhLnNvdXJjZV9pcAogIC0gbWV0YTogU291cmNlUmFuZ2UKICAgIGV4cHJlc3Npb246IGV2dC5FbnJpY2hlZC5Tb3VyY2VSYW5nZQo=",
-   "description": "Populate event with geoloc info : as, country, coords, source range.",
    "author": "crowdsecurity",
    "labels": null
   },
