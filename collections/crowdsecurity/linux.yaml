@@ -1,6 +1,5 @@
 parsers:
   - crowdsecurity/syslog-logs
-  - crowdsecurity/geoip-enrich
   - crowdsecurity/dateparse-enrich
 collections:
   - crowdsecurity/sshd
