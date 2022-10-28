@@ -3,7 +3,7 @@ parsers:
   - crowdsecurity/dateparse-enrich
 collections:
   - crowdsecurity/sshd
-description: "core linux support : syslog+geoip+ssh"
+description: "core linux support : syslog+ssh"
 author: crowdsecurity
 tags:
   - linux
