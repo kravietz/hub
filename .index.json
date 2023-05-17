@@ -1651,6 +1651,37 @@
     "crowdsecurity/rdns"
    ]
   },
+  "crowdsecurity/whm": {
+   "path": "collections/crowdsecurity/whm.yaml",
+   "version": "0.1",
+   "versions": {
+    "0.1": {
+     "digest": "b2e05f1a3fb4a667f7bf39fa3224e3f77cc12a199f4fae209a9da173700fe768",
+     "deprecated": false
+    }
+   },
+   "long_description": "IyMgV0hNIGNvbGxlY3Rpb24KCkEgY29sbGVjdGlvbiB0byBkZWZlbmQgV0hNIG9uIHRoZSB2YXJpb3VzIGNvbW1vbiBzZXJ2aWNlcyBpbnN0YWxsZWQKCiMjIEFjcXVpc2l0aW9uIHRlbXBsYXRlCgpUbyBoZWxwIHlvdSBsb2NhdGUgdGhlIGxvZ3Mgc3BlY2lmaWMgdG8gV0hNIG9yIENQYW5lbCBjb25maWd1cmF0aW9uIHJlZmVyIHRvIGh0dHBzOi8vZG9jcy5jcGFuZWwubmV0L2tub3dsZWRnZS1iYXNlL2NwYW5lbC1wcm9kdWN0L3RoZS1jcGFuZWwtbG9nLWZpbGVzLwoKRXhhbXBsZSBhY3F1aXNpdGlvbiBmb3IgdGhpcyBjb2xsZWN0aW9uIDoKCgpgYGB5YW1sCiMgWW91IGNhbiBsZWF2ZSB0aGUgZGVmYXVsdCBhcGFjaGUyIHBhdGggaW4gYWNxdWlzLnlhbWwgYXMgaXQgd2lsbCBkZWFsIHdpdGggeW91ciBzZXJ2ZXIgbG9ncwojIHRoaXMgZXh0cmEgYWNxdWlzaXRpb24gaXMgZm9yIGFwYWNoZTIgZXJyb3JzIGZvciB5b3VyIHZhcmlvdXMgdXNlcnMgZG9tYWlucyAKIyMgcHV0IGluIC9ldGMvY3Jvd2RzZWMvYWNxdWlzLmQvYXBhY2hlMndobS55YW1sIApmaWxlbmFtZXM6IAogIC0gL3Zhci9sb2cvYXBhY2hlMi9kb21sb2dzLyoKZXhjbHVkZV9yZWdleHBzOgogIC0gIi4qZnRweGZlcmxvZy4qIgogICMgeW91IGNhbiBleGNsdXNlIG90aGVyIHJlZ2V4cCB0aGF0IGFyZSBub3QgYXBhY2hlMiBsb2cgZmlsZXMKbGFiZWxzOgogIHR5cGU6IGFwYWNoZTIKYGBgCgpgYGB5YW1sCiMgZnRweGZlciB0eXBpY2FsIFdITSBvdmVycmlkZSA6IAojIyBwdXQgaW4gL2V0Yy9jcm93ZHNlYy9hY3F1aXMuZC9mdHB4ZmVyLnlhbWwgCmZpbGVuYW1lczogCiAgLSAvdXNyL2xvY2FsL2FwYWNoZTIvZG9tbG9ncy9mdHB4ZmVybG9nCmxhYmVsczoKICB0eXBlOiBzeXNsb2cKICAjIGRlcGVuZGluZyBvbiB5b3VyIGZ0cCBzZXJ2aWNlIHRoZSB0eXBlIGNhbiBhbHNvIGJlIHByb2Z0cGQgb3IgdnNmdHBkCmBgYAoKYGBgeWFtbAojIGNwYW5lbCB0eXBpY2FsIFdITSBvdmVycmlkZSA6IAojIyBwdXQgaW4gL2V0Yy9jcm93ZHNlYy9hY3F1aXMuZC9jcGFuZWwueWFtbCAKIyMgYW5kIGNvbW1lbnQgb3V0IGNwYW5lbCBhY3F1aXMgZGVmYXVsdCBjb25maWcgaW4gL2V0Yy9jcm93ZHNlYy9hY3F1aXMueWFtbCBpZiBuZWNlc3NhcnkKZmlsZW5hbWVzOiAKICAtIC91c3IvbG9jYWwvY3BhbmVsL2xvZ3MvbG9naW5fbG9nCiAgLSAvdXNyL2xvY2FsL2NwYW5lbC9sb2dzL2Vycm9yX2xvZwogIC0gL3Vzci9sb2NhbC9jcGFuZWwvbG9ncy9hY2Nlc3NfbG9nCmxhYmVsczoKICB0eXBlOiBjcGFuZWwKYGBgCgpgYGB5YW1sCiMgSW4gY2FzZSB5b3VyIERvdmVjb3QgbG9ncyBpbnRvIHN5c2xvZwojIHN5c2xvZyB3aWxsIGxpa2VseSByb3V0ZSBtYWlsIGxvZ3MgdG8gbWFpbGxvZwojIyBwdXQgaW4gL2V0Yy9jcm93ZHNlYy9hY3F1aXMuZC9kb3ZlY290LnlhbWwgCiMjIGFuZCBjb21tZW50IG91dCBjcGFuZWwgYXFjdWlzIGRlZmF1bHQgY29uZmlnIGluIC9ldGMvY3Jvd2RzZWMvYWNxdWlzLnlhbWwgaWYgbmVjZXNzYXJ5CiMjIGRlcGVuZGluZyBvbiB5b3VyIE9TIHRoZSBmaWxlIG1pZ2h0IGJlIC92YXIvbG9nL21haWxsb2cgb3IgL3Zhci9sb2cvbWFpbC5sb2cKZmlsZW5hbWVzOiAKICAtIC92YXIvbG9nL21haWxsb2cKbGFiZWxzOgogIHR5cGU6IHN5c2xvZwpgYGAKCm5vdGVzIDoKIC0gIElmIHlvdSBhcmUgdXNpbmcgYHN5c2xvZ2AsIHNldCB0eXBlIHRvIGBzeXNsb2dgIGluc3RlYWQKIC0gIERlcGVuZGluZyBvbiB5b3VyIGRpc3RyaWJ1dGlvbi9PUywgcGF0aHMgdG8gbG9nIGZpbGVzIG1pZ2h0IGNoYW5nZQogLSAgT25seSByZWxldmFudCBpZiB5b3UgYXJlIG1hbnVhbGx5IGluc3RhbGxpbmcgY29sbGVjdGlvbgo=",
+   "content": "Y29sbGVjdGlvbnM6CiAgLSBjcm93ZHNlY3VyaXR5L2FwYWNoZTIKICAtIGNyb3dkc2VjdXJpdHkvY3BhbmVsCiAgLSBjcm93ZHNlY3VyaXR5L2RvdmVjb3QKICAtIGNyb3dkc2VjdXJpdHkvZXhpbQogIC0gY3Jvd2RzZWN1cml0eS9odHRwLWN2ZQogIC0gY3Jvd2RzZWN1cml0eS9saW51eAogIC0gY3Jvd2RzZWN1cml0eS9tb2RzZWN1cml0eQogIC0gY3Jvd2RzZWN1cml0eS9teXNxbAogIC0gY3Jvd2RzZWN1cml0eS9wZ3NxbAogIC0gY3Jvd2RzZWN1cml0eS9wcm9mdHBkCiAgLSBjcm93ZHNlY3VyaXR5L3NzaGQKICAtIGNyb3dkc2VjdXJpdHkvdnNmdHBkCiAgLSBmdWxsamFja3ovcHVyZWZ0cGQKICAtIGNyb3dkc2VjdXJpdHkvd2hpdGVsaXN0LWdvb2QtYWN0b3JzCmRlc2NyaXB0aW9uOiAiV0hNIGJyb2FkIHNlbGVjdGlvbiBvZiBjb2xsZWN0aW9ucyBwb3NzaWJseSBiZWluZyBpbnN0YWxsZWQiCmF1dGhvcjogY3Jvd2RzZWN1cml0eQp0YWdzOgogIC0gd2htCiAgLSBjcGFuZWwKICAtIGxpbnV4Cg==",
+   "description": "WHM broad selection of collections possibly being installed",
+   "author": "crowdsecurity",
+   "labels": null,
+   "collections": [
+    "crowdsecurity/apache2",
+    "crowdsecurity/cpanel",
+    "crowdsecurity/dovecot",
+    "crowdsecurity/exim",
+    "crowdsecurity/http-cve",
+    "crowdsecurity/linux",
+    "crowdsecurity/modsecurity",
+    "crowdsecurity/mysql",
+    "crowdsecurity/pgsql",
+    "crowdsecurity/proftpd",
+    "crowdsecurity/sshd",
+    "crowdsecurity/vsftpd",
+    "fulljackz/pureftpd",
+    "crowdsecurity/whitelist-good-actors"
+   ]
+  },
   "crowdsecurity/windows": {
    "path": "collections/crowdsecurity/windows.yaml",
    "version": "0.1",
@@ -2694,6 +2725,22 @@
    "long_description": "IyBDUkkgbG9nIGZvcm1hdCBwYXJzZXIKClRoaXMgaXMgdGhlIGRlZmF1bHQgQ1JJIGxvZ3MgZm9ybWF0IHBhcnNlci4KSXQgd29ya3Mgb24ga3ViZXJuZXRlcyB1c2luZyBjb250YWluZXJkLgoKIyMgcmVxdWlyZW1lbnRzCgpXaGVuIHVzaW5nIHRoaXMgcGFyc2VyLCB5b3UgbmVlZCB0byBzcGVjaWZ5IGluIHlvdXIgYGFjcXVpcy55YW1sYCB0eXBlIGFuZCBwcm9ncmFtLiBTbyB5b3VyIGxvZyB3aWxsIGJlIGV4dHJhY3RlZCBhbmQgdGhlbiBzZW50IHRvIHRoZSBwcm9wZXIgbmV4dCBwYXJzZXIgdXNpbmcgdGhlIHByb2dyYW0ga2V5LgoKZXhhbXBsZTogCgpgYGB5YW1sCmxhYmVsczoKIHR5cGU6IGNvbnRhaW5lcmQKIHByb2dyYW06IG5naW54CmBgYAo=",
    "content": "ZmlsdGVyOiAiZXZ0LkxpbmUuTGFiZWxzLnR5cGUgPT0gJ2NvbnRhaW5lcmQnIgpvbnN1Y2Nlc3M6IG5leHRfc3RhZ2UKbmFtZTogY3Jvd2RzZWN1cml0eS9jcmktbG9ncwpkZXNjcmlwdGlvbjogQ1JJIGxvZ2dpbmcgZm9ybWF0IHBhcnNlcgpub2RlczoKICAtIGdyb2s6CiAgICAgIHBhdHRlcm46ICJeJXtUSU1FU1RBTVBfSVNPODYwMTpjcmlfdGltZXN0YW1wfSAle1dPUkQ6c3RyZWFtfSAle1dPUkQ6bG9ndGFnfSAle0dSRUVEWURBVEE6bWVzc2FnZX0iCiAgICAgIGFwcGx5X29uOiBMaW5lLlJhdwpzdGF0aWNzOgogIC0gcGFyc2VkOiAibG9nc291cmNlIgogICAgdmFsdWU6ICJjcmkiCiAgLSB0YXJnZXQ6IGV2dC5TdHJUaW1lCiAgICBleHByZXNzaW9uOiBldnQuUGFyc2VkLmNyaV90aW1lc3RhbXAKICAtIHBhcnNlZDogcHJvZ3JhbQogICAgZXhwcmVzc2lvbjogZXZ0LkxpbmUuTGFiZWxzLnByb2dyYW0KICAtIG1ldGE6IGRhdGFzb3VyY2VfcGF0aAogICAgZXhwcmVzc2lvbjogZXZ0LkxpbmUuU3JjCiAgLSBtZXRhOiBkYXRhc291cmNlX3R5cGUKICAgIGV4cHJlc3Npb246IGV2dC5MaW5lLk1vZHVsZQ==",
    "description": "CRI logging format parser",
+   "author": "crowdsecurity",
+   "labels": null
+  },
+  "crowdsecurity/csf-lfd-logs": {
+   "path": "parsers/s01-parse/crowdsecurity/csf-lfd-logs.yaml",
+   "stage": "s01-parse",
+   "version": "0.1",
+   "versions": {
+    "0.1": {
+     "digest": "bf671b8502ad2bfba3de13403f2c8d528caeab0ff126526793c18e56269abb43",
+     "deprecated": false
+    }
+   },
+   "long_description": "UGFyc2VyIGZvciBDU0YgTEZEIGZpbGUgbG9ncy4g",
+   "content": "b25zdWNjZXNzOiBuZXh0X3N0YWdlCmZpbHRlcjogImV2dC5QYXJzZWQucHJvZ3JhbSA9PSAnbGZkJyIKbmFtZTogY3Jvd2RzZWN1cml0eS9jc2YtbGZkLWxvZ3MKZGVzY3JpcHRpb246ICJQYXJzZSBDU0YgTEZEIGxvZ3MiCmRlYnVnOiB0cnVlCmdyb2s6CiAgcGF0dGVybjogIkZhaWxlZCBTU0ggbG9naW4gZnJvbSAle0lQOnNvdXJjZV9pcH0gXFwoJXtOT1RTUEFDRTpjb3VudHJ5X2NvZGV9LyV7R1JFRURZREFUQTpjb3VudHJ5X25hbWV9LyV7Tk9UU1BBQ0U6c291cmNlX3JkbnN9XFwpOiAle0dSRUVEWURBVEE6cmVhc29ufSIKICBhcHBseV9vbjogbWVzc2FnZQogIHN0YXRpY3M6CiAgICAtIG1ldGE6IHNvdXJjZV9pcAogICAgICBleHByZXNzaW9uOiAiZXZ0LlBhcnNlZC5zb3VyY2VfaXAiCiAgICAtIG1ldGE6IHJlYXNvbgogICAgICBleHByZXNzaW9uOiAiZXZ0LlBhcnNlZC5yZWFzb24i",
+   "description": "Parse CSF LFD logs",
    "author": "crowdsecurity",
    "labels": null
   },
@@ -5298,6 +5345,25 @@
    "labels": {
     "remediation": "true",
     "service": "cpanel",
+    "type": "bruteforce"
+   }
+  },
+  "crowdsecurity/csf-lfd-logs": {
+   "path": "scenarios/crowdsecurity/csf-lfd-logs.yaml",
+   "version": "0.1",
+   "versions": {
+    "0.1": {
+     "digest": "cedd881a2b94d06fb54ddc89b9b952e4e67b4c2a7175d371248c4653dcf3aa4b",
+     "deprecated": false
+    }
+   },
+   "long_description": "RGV0ZWN0cyBTU0ggYnJ1dGVmb3JjZSBhdHRlbXB0cyBibG9ja2VkIGJ5IENTRi4g",
+   "content": "dHlwZTogdHJpZ2dlcgpuYW1lOiBjcm93ZHNlY3VyaXR5L2NzZi1sZmQtbG9ncwpkZXNjcmlwdGlvbjogIkRldGVjdHMgU1NIIGJydXRlZm9yY2UgYXR0ZW1wdHMgYmxvY2tlZCBieSBDU0YuIgpmaWx0ZXI6ICJldnQuUGFyc2VkLnByb2dyYW0gPT0gJ2xmZCciCmdyb3VwYnk6IGV2dC5NZXRhLnNvdXJjZV9pcApibGFja2hvbGU6IDVtCmxhYmVsczoKICBzZXJ2aWNlOiBjc2YKICB0eXBlOiBicnV0ZWZvcmNlCiAgcmVtZWRpYXRpb246IHRydWUKCg==",
+   "description": "Detects SSH bruteforce attempts blocked by CSF.",
+   "author": "crowdsecurity",
+   "labels": {
+    "remediation": "true",
+    "service": "csf",
     "type": "bruteforce"
    }
   },
